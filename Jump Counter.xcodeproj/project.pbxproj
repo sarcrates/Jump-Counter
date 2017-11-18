@@ -14,6 +14,10 @@
 		B05385A81E0DA9C90030DB85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B05385A61E0DA9C90030DB85 /* LaunchScreen.storyboard */; };
 		B05385B31E0DA9CA0030DB85 /* Jump_CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05385B21E0DA9CA0030DB85 /* Jump_CounterTests.swift */; };
 		B05385BE1E0DA9CA0030DB85 /* Jump_CounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05385BD1E0DA9CA0030DB85 /* Jump_CounterUITests.swift */; };
+		B05385CE1E0DA9E00030DB85 /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = B05385CB1E0DA9E00030DB85 /* 01.png */; };
+		B05385CF1E0DA9E00030DB85 /* Mario-Coin-psd64730.png in Resources */ = {isa = PBXBuildFile; fileRef = B05385CC1E0DA9E00030DB85 /* Mario-Coin-psd64730.png */; };
+		B05385D01E0DA9E00030DB85 /* Super_Mario_Bros_Vector.png in Resources */ = {isa = PBXBuildFile; fileRef = B05385CD1E0DA9E00030DB85 /* Super_Mario_Bros_Vector.png */; };
+		B0CB85211E0DAD1E00DFA2FF /* CoinSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B0CB85201E0DAD1E00DFA2FF /* CoinSound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		B05385B91E0DA9CA0030DB85 /* Jump CounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jump CounterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B05385BD1E0DA9CA0030DB85 /* Jump_CounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jump_CounterUITests.swift; sourceTree = "<group>"; };
 		B05385BF1E0DA9CA0030DB85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B05385CB1E0DA9E00030DB85 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
+		B05385CC1E0DA9E00030DB85 /* Mario-Coin-psd64730.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mario-Coin-psd64730.png"; sourceTree = "<group>"; };
+		B05385CD1E0DA9E00030DB85 /* Super_Mario_Bros_Vector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Super_Mario_Bros_Vector.png; sourceTree = "<group>"; };
+		B0CB85201E0DAD1E00DFA2FF /* CoinSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CoinSound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,10 @@
 				B053859D1E0DA9C90030DB85 /* AppDelegate.swift */,
 				B053859F1E0DA9C90030DB85 /* ViewController.swift */,
 				B05385A11E0DA9C90030DB85 /* Main.storyboard */,
+				B05385CB1E0DA9E00030DB85 /* 01.png */,
+				B05385CC1E0DA9E00030DB85 /* Mario-Coin-psd64730.png */,
+				B05385CD1E0DA9E00030DB85 /* Super_Mario_Bros_Vector.png */,
+				B0CB85201E0DAD1E00DFA2FF /* CoinSound.mp3 */,
 				B05385A41E0DA9C90030DB85 /* Assets.xcassets */,
 				B05385A61E0DA9C90030DB85 /* LaunchScreen.storyboard */,
 				B05385A91E0DA9C90030DB85 /* Info.plist */,
@@ -232,9 +244,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0CB85211E0DAD1E00DFA2FF /* CoinSound.mp3 in Resources */,
 				B05385A81E0DA9C90030DB85 /* LaunchScreen.storyboard in Resources */,
 				B05385A51E0DA9C90030DB85 /* Assets.xcassets in Resources */,
+				B05385CF1E0DA9E00030DB85 /* Mario-Coin-psd64730.png in Resources */,
+				B05385CE1E0DA9E00030DB85 /* 01.png in Resources */,
 				B05385A31E0DA9C90030DB85 /* Main.storyboard in Resources */,
+				B05385D01E0DA9E00030DB85 /* Super_Mario_Bros_Vector.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +429,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Jump Counter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.sarcrates.Jump-Counter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +442,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Jump Counter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.sarcrates.Jump-Counter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +523,7 @@
 				B05385C41E0DA9CA0030DB85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B05385C51E0DA9CA0030DB85 /* Build configuration list for PBXNativeTarget "Jump CounterTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +532,7 @@
 				B05385C71E0DA9CA0030DB85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B05385C81E0DA9CA0030DB85 /* Build configuration list for PBXNativeTarget "Jump CounterUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +541,7 @@
 				B05385CA1E0DA9CA0030DB85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
